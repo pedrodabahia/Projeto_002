@@ -44,10 +44,14 @@ nav center div{
     background-image: url(../img/logo2.png);
     background-size: 100% 100%;
 }
+.banner1{
+height:100%;
+width:100%;
+}
 .formulario{
     background-image:url(../img/bg-form.jpg);
     background-position: center;
-    height:580px;
+    height:100%;
     width: 90%;
     margin: 0 auto;
 }
