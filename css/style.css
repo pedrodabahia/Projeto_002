@@ -52,6 +52,7 @@ width:100%;
     background-image:url(../img/bg-form.jpg);
     background-position: center;
     height:300%;
+    background-color:red;
     width: 90%;
     margin: 0 auto;
 }
