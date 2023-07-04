@@ -45,13 +45,13 @@ nav center div{
     background-size: 100% 100%;
 }
 .banner1{
-height:300%;
+height:100%;
 width:100%;
 }
 .formulario{
     background-image:url(../img/bg-form.jpg);
     background-position: center;
-    height:300%;
+    height:100%;
     background-color:red;
     width: 90%;
     margin: 0 auto;
