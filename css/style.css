@@ -242,7 +242,7 @@ footer{
    
 
     .formulario form{
-        border-color:red;
+        border:2px solid red;
         width: 80vw;
         height: 70vh;
         margin: 0  9vw;
