@@ -216,6 +216,7 @@ footer{
     .formulario form{
         margin: 0 20%;    
         width:60%;
+        border:2px solid red;
     }
     .formulario{
         padding-top: 3%;
