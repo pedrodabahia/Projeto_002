@@ -236,14 +236,23 @@ footer{
     }
 }
 
+
 @media screen and (max-width:714px){
+    
+   
 
     .formulario form{
-        width: 75vw;
-        margin: 0  6vw;
+        width: 80vw;
+        height: 70vh;
+        margin: 0  9vw;
+    }
+    .formulario form div{
+        padding: 1vh;
+        height: 10vh;
     }
     .formulario{
-        padding-top: 3%;
+        padding-top: 6vh;
+        width: 100%;
     }
 
 
