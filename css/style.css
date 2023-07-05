@@ -52,7 +52,6 @@ nav center div{
     background-image:url(../img/bg-form.jpg);
     background-position: center;
     height:87vh;
-
     width: 90%;
     margin: 0 auto;
 }
@@ -66,6 +65,7 @@ nav center div{
     background-color: rgba(250,250,250,0.6);
     overflow: hidden;
     text-align: center;
+    border: 2px solid green;
 }
 .formulario form div{
     height:12vh;
@@ -212,14 +212,15 @@ footer{
 
 }
 
-@media screen and (max-width:1018px) and (min-width:715px){
+@media screen and (max-width:1080px) and (min-width:700px){
     .formulario form{
         margin: 0 20%;    
         width:60%;
-        border:2px solid red;
+        border: 2px solid yellow;
     }
     .formulario{
         padding-top: 3%;
+        width: 100%;
     }
 
     nav center div{
@@ -237,16 +238,15 @@ footer{
     }
 }
 
-
-@media screen and (max-width:714px){
+@media screen and (max-width:699px){
     
    
 
     .formulario form{
-        border:2px solid red;
         width: 80vw;
         height: 70vh;
         margin: 0  9vw;
+        border: 2px solid red;
     }
     .formulario form div{
         padding: 1vh;
