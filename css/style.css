@@ -213,29 +213,40 @@ footer{
 }
 
 @media screen and (max-width:1080px) and (min-width:700px){
-    .formulario form{
-        margin: 0 20%;    
-        width:60%;
+    .formulario form{   
+        height:80vh;
         border: 2px solid yellow;
+        width: 80vw;
+        margin: 0  6vw;
     }
     .formulario{
-        padding-top: 3%;
-        width: 100%;
+        padding-top: 6vh;
+        width: 95%;
     }
-
     nav center div{
         width: 15%;
         margin: 1% 23%;
-    }
-
-    .formulario form button{
-        margin-bottom: 2%;
     }
 
     .banner1 .arrow{
         height:8%;
         width: 6.5%;
     }
+    .formulario form div{
+        padding: 1vh;
+        height: 10vh;
+        width: 80vw;
+    }
+
+    .formulario form button{
+        width: 70vw;
+        height: 8vh;
+        margin: 3vh 2vw;
+        
+       
+    }
+
+
 }
 
 @media screen and (max-width:699px){
