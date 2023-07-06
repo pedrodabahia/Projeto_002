@@ -1,67 +1,119 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="icon " href="./img/logo1-removebg-preview.png" type="image/png">
-        <title>Cotes d'Azur Ville</title>
-        <link rel="stylesheet" type="text/css" href="./css/style.css">
-        <meta charset="author" content="Pedro Matos">
-        <meta charset="description" content="landing page ultilizada para treino de habilidades nas marcações css e html">
-        <meta charset="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0">
-        <meta charset="keywolrds" content="palavras,chaves,separadas,por,vigulas">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <center>
-                    <div class="logo1"></div>
-                    <div class="logo2"></div>
-                </center>
-            </nav>
-        </header>
+<head>
+	<title>Minha Landing Page</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<meta name="description" content="Conteúdo do meu site.">
+	<meta name="keywords" content="palavras,separadas,por,virgula">
+	<meta name="author" content="Guilherme" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+	<meta charset="utf-8" />
+</head>
+<body>
 
-        <section class="banner1">
-            <div class="formulario">
-                <form>
-                    <div class="tituloForm">
-                        <label>PODE ACREDITAR, POR DENTRO É AINDA MAIS BONITO.</label>
-                    </div>
+<header>
+	<div class="container">
+		<div><div class="logo-1"></div><!--logo-1--></div>
+		<div><div class="logo-2"></div><!--logo-2--></div>
+		<div class="clear"></div><!--clear-->
+	</div><!--container-->
+</header>
 
-                    <div>
-                    <label>*NOME</label><br>
-                    <input type="text" name="nome" required>
-                    </div>
+<section class="cover-form">
+	<div class="container bg">
+		<div class="form-container">
+			<h2>PODE ACREDITAR, POR DENTRO É AINDA MAIS BONITO.</h2>
+			<form>
+				<div class="form-wraper">
+					<p>Nome Completo</p>
+					<input type="text" name="nome" required placeholder="Nome">
+				</div><!--form-wraper-->
 
-                    <div>
-                    <label>*EMAIL</label><br>
-                    <input type="email" name="email" required>
-                    </div>
+				<div class="form-wraper">
+					<p>E-mail</p>
+					<input type="text" name="email" required placeholder="E-mail">
+				</div><!--form-wraper-->
 
-                    <div>
-                    <label>*TELEFONE</label><br>
-                    <input type="text" name="telefone" required>
-                    </div>
-                    
-                    <button type="submit">ENVIAR</button>
+				<div class="form-wraper">
+					<p>Telefone</p>
+					<input type="text" name="telefone" required placeholder="Telefone">
+				</div><!--form-wraper-->
 
-                    <label class="AVISO">*CAMPOS OBRIGATORIOS</label>
-                </form>
-                <div class="arrow"></div>
-            </div>
-        </section>
-        <section class="mosaico">
-            <div class="amostras">
-                <div class="conteiner">
-                    <div class="tituloMosaico"><h1>Vida a vida que você sempre sonhou</h1><br><h3 class="Subt-Title">Cobertura e apartamentos de frente para o mar no João Paulo</h3></div>
-                    <div><p class="texto">O sol nasceu para todos mas se põe de um jeito mais exclusivo aqui.</p><img class="mosaico" src="./img/mosaico4.jpg"></div>
-                    <div><img class="mosaico" src="./img/mosaico3.jpg"><p class="texto">A chave para a fedivcidade é a mesma que abre estas portas.</p></div>
-                    <div><p class="texto">Vai ser amor a primeira vista. E que vista.<br><b>Apartamento decorado e pronto para morar.</b></p><img class="mosaico" style="width:55%;" src="./img/mosaico2.jpg"></div>
-                    <div><img class="mosaico" src="./img/mosaico1.jpg"><p class="texto">Mais deslumbrante que o cenário lá fora, só os ambientes aqui dentro.<br><b>Cobertura decorada e pronta para morar.</b></p></div> 
-                </div>
-                <footer>
-                    <div class="imagem-footer" ></div>
-                </footer> 
+				<div class="form-wraper">
+					<input type="submit" name="acao" value="Enviar">
+				</div><!--form-wraper-->
+				<div class="form-wraper">
+					<p>* Campos Obrigatórios</p>
+				</div><!--form-wraper-->
+			</form>
+		</div><!--form-container-->
+	</div><!--container-->
+</section><!--cover-form-->
 
-            </div>
-        </section>
-    </body>
+<section class="chamada">
+<!--
+	Feito em OFF o icone centralizado na sessão!
+	Estudar o CSS.
+-->
+<div class="icone-seta"></div>
+	<div class="container">
+	<div><h2>Minha chamada para o empreendimento</h2></div>
+	<div><p>Alguma mensagem para a chamada</p></div>
+	</div><!--container-->
+</section><!--chamada-->
+
+<section class="mosaico">
+
+	<div class="container">
+
+		<div class="flex-mosaico">
+		<div style="background-image:url('img/mosaico1.jpg');" class="item-1-mosaico"></div><!--item1-mosaico-->
+
+		<div class="item-2-mosaico">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae justo eu sapien ultricies dignissim. Vestibulum feugiat interdum pharetra. Curabitur vulputate a lectus nec maximus. Quisque id interdum eros. Donec porta nibh eget diam consectetur fringilla. Proin in urna faucibus, volutpat enim a, maximus ipsum</p>
+		</div><!--item2-mosaico-->
+
+		</div><!--flex-mosaico-->
+
+		<div class="flex-mosaico">
+		<div style="background-image:url('img/mosaico1.jpg');order:2;" class="item-1-mosaico"></div><!--item1-mosaico-->
+
+		<div class="item-2-mosaico" style="order:1;">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae justo eu sapien ultricies dignissim. Vestibulum feugiat interdum pharetra. Curabitur vulputate a lectus nec maximus. Quisque id interdum eros. Donec porta nibh eget diam consectetur fringilla. Proin in urna faucibus, volutpat enim a, maximus ipsum</p>
+		</div><!--item2-mosaico-->
+
+		</div><!--flex-mosaico-->
+
+				<div class="flex-mosaico">
+		<div style="background-image:url('img/mosaico1.jpg');" class="item-1-mosaico"></div><!--item1-mosaico-->
+
+		<div class="item-2-mosaico">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae justo eu sapien ultricies dignissim. Vestibulum feugiat interdum pharetra. Curabitur vulputate a lectus nec maximus. Quisque id interdum eros. Donec porta nibh eget diam consectetur fringilla. Proin in urna faucibus, volutpat enim a, maximus ipsum</p>
+		</div><!--item2-mosaico-->
+
+		</div><!--flex-mosaico-->
+
+		<div class="flex-mosaico">
+		<div style="background-image:url('img/mosaico1.jpg');order:2;" class="item-1-mosaico"></div><!--item1-mosaico-->
+
+		<div class="item-2-mosaico" style="order:1;">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae justo eu sapien ultricies dignissim. Vestibulum feugiat interdum pharetra. Curabitur vulputate a lectus nec maximus. Quisque id interdum eros. Donec porta nibh eget diam consectetur fringilla. Proin in urna faucibus, volutpat enim a, maximus ipsum</p>
+		</div><!--item2-mosaico-->
+
+		</div><!--flex-mosaico-->
+
+	</div><!--container-->
+
+</section><!--mosaico-->
+
+
+<footer>
+	<div class="container">
+		<img src="img/logo1.png" />
+	</div><!--container-->
+</footer>
+
+
+</body>
 </html>
